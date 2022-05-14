@@ -4,6 +4,9 @@ body{
 
 section{
     background-color: white;
+    margin: 0px;
+    justify-content: center;
+    align-self: center;
 
 }
 .hero{
@@ -17,11 +20,11 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 80px;
-
-
-}
-
+    padding: 30px;
+    display: block;
+    position: relative;
+    text-align: center;
+  }
 nav {
     display: flex;
     justify-content: space-between;
@@ -62,6 +65,7 @@ p {
 .subtext{
     font-size: 15px;
     font-weight: 300px;
+    margin: 2px;
     ;
 }
 
@@ -152,6 +156,9 @@ p {
 .project-container{
     display: flex;
     justify-content: space-around;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -162,9 +169,10 @@ p {
 }
 
 .project-image{
-    margin-top: 30px;;
-    width: 300px;
+    margin-top: px;;
+    width: 175px;
     border-radius: 0px;
+    justify-content: space-around;
 }
 
 hr{
@@ -219,4 +227,3 @@ ul.show{
 
     .logo {
        display: none;}
-       
