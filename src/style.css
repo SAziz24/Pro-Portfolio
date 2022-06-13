@@ -150,7 +150,8 @@ p {
     width: 350px;
     height: 400px;
     box-shadow: 5px 5px 20px rgb(116, 96, 96);
-    margin: 10px;
+    margin: 30px;
+   
 }
 
 .project-container{
@@ -169,10 +170,10 @@ p {
 }
 
 .project-image{
-    margin-top: px;;
     width: 175px;
     border-radius: 0px;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 hr{
@@ -184,6 +185,7 @@ hr{
 .project-link{
     text-decoration: none;
     color: chocolate;}
+    
 
 a {
     text-decoration: none;
